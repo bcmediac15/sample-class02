@@ -3,7 +3,7 @@
         private $cnn, $dbs;
 
         function __construct(){
-            $this->cnn = mysqli_connect("localhost","stiki","web1","db_kampus") 
+            $this->cnn = mysqli_connect("HOSTDBMS","MYSQL_USER","MYSQL_PASSWORD","MYSQL_DATABASE") 
             or die("Koneksi ke DBMS Mysql Gagal<br>");
         }
         function __destruct(){
