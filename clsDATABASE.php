@@ -80,39 +80,3 @@
             return $hsl;
         }
     }
-
-/*
-//uji class
-$db = new clsDATABASE();
-$db->DeldtMHS('11223344');
-$dta = $db->UpdtMHS('11223344','Budi Sentosa Sjah','Jl. Waru No 34','08110011001');
-print_r($dta);
-$db->CreaMHS('11223344', 'Budi', 'Jl. Pemuda No 17', '08110011001');
-$dta = $db->ReadMHS();
-echo "Jumlah Data: ".$dta["JML"] . " Data";
-for($i=0; $i<=$dta["JML"]-1;$i++){
-    $nox = $i+1;
-    echo "No:" . $nox . "<br>";
-    echo "NIM: " . $dta[$i]["NIM"] . "<br>";
-    echo "NAMA: " . $dta[$i]["NAMA"] . "<br>";
-    echo "ALAMAT: ". $dta[$i]["ALAMAT"] . "<br>";
-    echo "TELP: " . $dta[$i]["TELP"] . "<br>";
-    echo "<br>";
-}
-
-opsi menambah berdasarkan thn-bulan-tgl
-
-tabel: biaya
-field: 
-    tglpengeluaran
-    option
-    
-    Select tglpengeluaran, option FROM biaya;
-    INSERT INTO biaya(tglpenegeluaran,option) VALUES('0000-00-00','opsi');
-    UPDATE biaya SET option='opsibaru' WHERE tglpengeluaran='0000-00-00'; 
-    DELETE FROM biaya WHERE tglpengeluaran='0000-00-00'; 
-
-    $tgl = date('Y-m-d');
-
-
-*/
