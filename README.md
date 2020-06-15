@@ -7,9 +7,9 @@ Setting:
 3. Class clsDATABASE
 4. Property pada class $cnn dan $dbs
 5. Method pada Class:
-    a. CreaMHS($nimhs, $nm, $alamatmhs, $tel)
-    b. ReadMHS()
-    c. NIM2MHS($nimhs)
-    d. UpdtMHS($nimhs,$nm,$alamatmhs,$tel)
-    e. DeldtMHS($nimhs)
+    1. CreaMHS($nimhs, $nm, $alamatmhs, $tel)
+    2. ReadMHS()
+    3. NIM2MHS($nimhs)
+    4. UpdtMHS($nimhs,$nm,$alamatmhs,$tel)
+    5. DeldtMHS($nimhs)
 6. download class di https://ptov.ga/BCMt84qi
